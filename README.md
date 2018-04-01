@@ -11,12 +11,14 @@ but I am planning on making it moveable and randomnizable.
 Furthermore, I will store the values of these runs in a Dataframe so to perform further statistical analysis on them.
 
 Here are some examples of questions that can be asked:
-    1- Given steps of size __ and a square terrain of size __, what is the average minimum number of steps before an unit positioned at the 
-       center of the square reaches (beyond) the borders?
-    2- What is the probability of reaching position ___ starting from position ___, on a square terrain with side lengths ___?
-    3- If ___ units are placed on this square terrain (randomly or not), how many collisions can be expected on average during a run?
+
+    1- Given steps of size N and a square terrain of size N2, what is the average minimum number of steps before an unit positioned at the center of the square reaches (beyond) the borders?
     
-    ETC...
+    2- What is the probability of reaching position (X,Y) starting from position (X0,Y0), on a square terrain with side lengths N2?
+    
+    3- If S units are placed on this square terrain (randomly or not), how many collisions can be expected on average during a run?
+    
+   ETC...
     
 I know that many of these questions are actually a matter of solving for probabilities and/or stochastic processes.
 However, it is my opinion that there is still some value in being able to obtain the answers through simulations of the sort.
